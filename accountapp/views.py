@@ -6,8 +6,6 @@ from accountapp.models import HelloWorld
 
 # Create your views here.
 
-# test view.function
-
 
 def hello_world(request):
     if request.method == "POST":
