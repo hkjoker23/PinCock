@@ -1,7 +1,6 @@
-
+  
+from django.urls import path
 from profileapp.views import ProfileCreateView, ProfileUpdateView
-from django.urls.conf import path
-
 
 app_name = 'profileapp'
 
